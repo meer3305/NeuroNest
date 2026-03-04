@@ -1,0 +1,4 @@
+# Root requirements for Vercel (API serverless function)
+# Must match api/requirements.txt so Vercel installs deps for api/index.py
+fastapi>=0.100.0
+python-dotenv>=1.0.0
